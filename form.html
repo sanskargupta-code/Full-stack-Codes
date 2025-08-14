@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+</head>
+<body>
+    <h2>Contact form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br></br>
+        <label for="AGE"> AGE</label><br></br>
+        <input type ='number' id="number" min = 0 max = 120 required><br></br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="Gender">Select Gender:-</label><br>
+        <label for="male">Male</label><br>
+        <input type="radio" id="male" name="gender"value="male"><br>
+        <label for="female">Female</label><br>
+        <input type="radio" id="female" name="gender"value="female"><br>
+        </select><br></br>
+        <label for="country">Country of Residence:</label><br><br>
+        <select id="country" name="country" required>
+        <option value="">--select the country-- </option><br>
+        <option value="IND">INDIA</option>
+        <option value="CA">Canada</option>
+        <option value="GB">United Kingdom</option>
+        <option value="AU">Australia</option>
+        <option value="PAK">PAKISTAN</option>
+        <option value="FR">France</option>
+       </select><br><br><br>
+       <input type = 'submit' value="submit"><br>
+    </form>
+</body>
+</html>
