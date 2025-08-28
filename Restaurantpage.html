@@ -1,0 +1,103 @@
+<html lang="eng">
+<head>
+    <title>Restaurant Menu</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        #button1{
+            text-align: center;
+            height : 30px; width: 100px;
+            border: 5px solid black;
+            border-radius: 30px;
+            background-color: grey;
+        }
+
+
+    #button2{
+            text-align: center;
+            height : 30px; width: 100px;
+            border: 5px solid black;
+            border-radius: 30px;
+            background-color: white;
+        }
+         .sidebar{
+            width: 200px;
+            background: gray;
+            color: white;
+            padding-top: 0px;
+            position: fixed;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            text-decoration: none;
+            display: block;
+        }
+    body{
+            margin-left: 235px;
+            padding: 20px;
+        }
+         .sidebar a{
+            display: block;
+            color: white;
+            padding: 10px;
+        }
+        .sidebar a:hover{
+            background-color: black;
+        }
+        .box1, .box2, .box3 {
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+        }
+        .image {
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 10px;
+        }
+        .box1 .image{
+            background-image:url("pizza1.jpg");
+        }
+        .box2 .image{
+            background-image:url("pizza2.jpg");
+        }
+        .box3 .image{
+            background-image:url("pizza3.jpg");
+        }
+    </style>
+</head>
+<body>
+    <h1>Deepak Biryani</h1><br>
+    <h2>Menu</h2><br>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#Starters">Starters</a>
+        <a href="#MainCourse">MainCourse</a>
+       
+    </nav><br>
+    <h2>Our specials</h2><br>
+
+    <div class="box1">
+        <div class="image"></div>
+        <h3>Margherita pizza</h3>
+        <p>Classic Pizza with Fresh tomatoes</p><br></div>
+    <div class="box2">
+        <div class="image"></div>
+        <h3>Paneer masala</h3>
+        <p>creamy tomatoes gravy cooked with soft paneer</p><br> </div>
+    <div class="box3">
+        <div class="image"></div>
+        <h3>choclate brownie</h3>
+        <p>Rich choclate brownie</p><br></div>
+ <button id="button1">darkmode</button>
+ <button id="button2">Lightmode</button><br>
+    <div class="sidebar">
+        <h1>Menu</h1>
+        <a href="starters">starters </a>
+        <a href="Desserts">Deserts</a>
+        <a href="Coldrinks">Coldrinks</a></div>
+</body><br>
+<footer>
+    &copyDeepak biryani
+</footer>    
+</html>
